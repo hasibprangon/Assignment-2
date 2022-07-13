@@ -1,6 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* common stylesheet */
+
 body {
     margin: 0;
     padding: 0;
@@ -14,9 +14,7 @@ main {
 hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-/*--------------------------
-    header area style
- ------------------------------- */
+/*-- header area style --*/
 .section-of-header{
     background-color: #161616;
     border-radius: 30px;
@@ -98,17 +96,7 @@ hr {
     margin-bottom: 25px;
     width: 190px;
 }
-/* .second-blg-btton {
-    color: #161616;
-    padding: 16px;
-    background: #FFFFFF;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 25px;
-    width: 190px;
-} */
+
 #red-blg-button{
     color: white;
     padding: 16px;
@@ -209,9 +197,7 @@ hr {
     display: none;
 }
 
-/* --------------------------
-     footer area 
------------------------------*/
+/* -- footer area --*/
 footer {
     background-color: #161616;
     color: white;
