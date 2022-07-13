@@ -282,6 +282,10 @@ hr{
         margin-top: 0;
         margin-bottom: 20px;
     }
+    .rightside-header img{
+        width: 100%;
+        display: block;
+    }
     .container-of-blogs {
         display: flex;
         flex-direction: column;
