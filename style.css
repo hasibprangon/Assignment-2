@@ -333,8 +333,12 @@ hr{
         margin-top: 0;
         margin-bottom: 20px;
     }
-    .rightside-header img{
+    .rightside-header{
         width: 100%;
+        display: block;
+    }
+    .rightside-header img{
+         width: 100%; 
         display: block;
     }
     .container-of-blogs {
