@@ -253,64 +253,6 @@ hr{
 }
 /* media quary strating*/
 
-/* for device like tablet */
-@media only screen and (min-width:688px) and (max-width:992px) {
-    header,
-    main {
-        max-width: 750px;
-    }
-    .first-heading {
-        font-size: 50px;
-        line-height: 45px;
-        margin-bottom: 20px;
-    }
-    .button1 {
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
-    .rightside-header img{
-        width: 100%;
-        display: block;
-    }
-    .container-of-blogs {
-        display: flex;
-        flex-direction: column;
-    }
-    .leftside-blogs {
-        flex-direction: row;
-        background: none;
-        width: 100%;
-    }
-    .first-blg-button {
-        border: 1px solid #B9B9B9;
-        margin-right: 15px;
-        margin-bottom: 0;
-    }
-    #red-blg-button {
-        margin-bottom: 0;
-    }
-    .news-side {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .blog-image img {
-        width: 100%;
-    }
-    .tab a {
-        display: inline-block;
-    }
-    .goal {
-        top: 20px;
-        padding: 15px;
-    }
-    .about-us {
-        flex-wrap: wrap;
-    }
-    .about-us a {
-        margin-bottom: 15px;
-    }
-}
-
 /* for mobile */
 @media only screen and (max-width:688px) {
     header,
@@ -373,6 +315,64 @@ hr{
     }
     .about-us {
         flex-direction: column;
+    }
+}
+
+/* for device like tablet */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    header,
+    main {
+        max-width: 750px;
+    }
+    .first-heading {
+        font-size: 50px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .button1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .rightside-header img{
+        width: 100%;
+        display: block;
+    }
+    .container-of-blogs {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftside-blogs {
+        flex-direction: row;
+        background: none;
+        width: 100%;
+    }
+    .first-blg-button {
+        border: 1px solid #B9B9B9;
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+    #red-blg-button {
+        margin-bottom: 0;
+    }
+    .news-side {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-image img {
+        width: 100%;
+    }
+    .tab a {
+        display: inline-block;
+    }
+    .goal {
+        top: 20px;
+        padding: 15px;
+    }
+    .about-us {
+        flex-wrap: wrap;
+    }
+    .about-us a {
+        margin-bottom: 15px;
     }
 }
 /*  End of Assignment  */
